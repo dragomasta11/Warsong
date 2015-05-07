@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="cisc350.warsong1.WaterBoss">
+
+    <TextView
+        android:text="**Boss: Obscure Reaper \n
+-Element: Water \n
+-Deal physical damage to melee tank and single-hit water magic damage to range tank. \n
+-Occasionally, use Occult Ice on a random squad member. Occult Ice will drop BB. \n
+-Occasionally, use Occult Ice for the entire squad member in range, plus aps and channeling debuff. This debuff is pretty horrible. The massive Occult Ice is pretty long (about 10-15 seconds) and while the entire squad is stunned, the boss keeps hitting on the tank. This would usually kill the tank if the tank isn't tanky enough. \n
+\n
+**Boss: Vile: Obscure Reaper -Element: Water \n
+-Deal physical damage to melee tank and single-hit water magic damage to range tank. -Massive AoE stun at the beginning of the spawn. You can block the stun by using anti-stun skill/immunity damage skill/Vacuity Powder. \n
+-Will AoE stun very so often."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Obscure Reaper"
+        android:id="@+id/textView6"
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

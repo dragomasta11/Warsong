@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="cisc350.warsong1.FireBoss">
+
+    <TextView
+        android:text="**Boss: Cannonfist Orclord \n
+-Element: Fire \n
+-Deal physical damage to tank. He hits really hard on casters. It is advisable to have an HA-armored tank. \n
+-Occasionally, deal an AoE magic attack + large sum of mana drain. So, be careful to keep HP full before you're getting hit or simply block the damage. The boss will say 'You only have 20 seconds to live' before using the mana drain debuff. \n
+\n
+    **Boss: Vile: Cannonfist Orclord \n
+    -Element: Fire \n
+    -Boss will triple spark at the beginning when he got hit for the first time. This spark can be removed by Purge or simply channel interrupted. \n
+    -Deal physical-damage melee ONLY to the tank. No magic damage."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cannonfist Orclord"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView3" />
+
+</RelativeLayout>

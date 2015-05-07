@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="cisc350.warsong1.MetalBoss">
+
+    <TextView
+        android:text="**Boss: Snakefist Guardian \n
+-Element: Metal \n
+-Deal physical damage to melee tank and ONLY metal magic damage to range tank. \n
+-Occasionally, he does AoE metal magic attack to everyone in range. \n
+-Frenzy/Enrage genie skills used after a while. This buff gets stronger overtime. That is why you need to kill this boss as quick as possible.\n
+\n
+**Boss: Vile: Snakefist Guardian \n
+-Element: Metal \n
+-Deal physical-damage to melee tank and ONLY metal magic damage to range tank. Magic damage is a single hit damage, not AoE.\n
+-Occasionally AoE stun the tank. The range of AoE is really small. \n
+-Turns everyone in range (20 meters AoE or less) into frog. Frog can use normal aps attack, but not skills. Frog comes with a healing debuff."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Snakefist Guardian"
+        android:id="@+id/textView5"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

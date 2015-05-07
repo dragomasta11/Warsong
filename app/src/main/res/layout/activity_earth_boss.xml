@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="cisc350.warsong1.EarthBoss"
+    android:id="@+id/textView">
+
+    <TextView
+        android:text="
+**Boss: Shadowskull Lich \n
+-Element: Earth \n
+-Has 4 forms \n
+-Summon earth minions after each of the first 3 form dies. Minions hit for low damage. \n
+-Boss use physical damage-melee on the tank. Occasionally, use earth magic attack AoEs that hit the entire squad in range. \n
+\n
+**Boss: Vile: Shadowskull Lich \n
+-Element: Earth \n
+-only has 1 form \n
+-He can heal himself which can only be countered by a purge. \n
+-If the boss isn't killed in a fast enough manner then he does a strengh buff on himself that increases his damage. \n
+-No magic attack. Only deal physical damage-melee to the tank."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EarthBoss"
+        android:layout_alignEnd="@+id/EarthBoss"
+        android:layout_below="@+id/EarthBoss" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shadowskull Lich"
+        android:id="@+id/EarthBoss"
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
